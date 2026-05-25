@@ -20,7 +20,9 @@ def save_schema(
 
             "datatype": schema["datatype"],
 
-            "is_list": schema["is_list"]
+            "is_list": schema["is_list"],
+
+            "attributes": schema["attributes"]
         }
     )
 

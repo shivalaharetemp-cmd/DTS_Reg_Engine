@@ -42,6 +42,9 @@ INSTALLED_APPS = [
     'tally_connector',
     'schema_registry',
     'xml_generator',
+    'schema_evolution',
+    'canonical_mapper',
+    'middleware_runtime',
 ]
 
 MIDDLEWARE = [

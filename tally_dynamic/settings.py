@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     'schema_evolution',
     'canonical_mapper',
     'middleware_runtime',
+    'runtime_store',
 ]
 
 MIDDLEWARE = [

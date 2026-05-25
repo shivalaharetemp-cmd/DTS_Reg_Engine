@@ -61,4 +61,10 @@ def dynamic_map(
                 canonical_field
             ] = value
 
+        else:
+
+            print(
+                f"OPTIONAL FIELD MISSING: {xml_field}"
+            )
+
     return canonical
